@@ -1,0 +1,14 @@
+header{
+        display: flex;
+        text-align: center;
+}
+.nave{
+        display: flex;
+}
+.nave ul{
+        display: flex;
+        margin-left: 15px;
+}
+.nave img{
+width: 40px;
+}
