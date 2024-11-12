@@ -1,14 +1,108 @@
-header{
-        display: flex;
+* {
+  font-family: "Poppins", sans-serif;
+  
+}
+header {
+  display: flex;
+  text-align: center;
+  padding: 20px 35px;
+}
+.logo {
+  display: flex;
+  margin-left: 35px;
+}
+.logo h3 {
+  margin: 8px;
+  color: #ef5f4c;
+}
+.pesquisa {
+  display: flex;
+  width: 325px;
+  height: 40px;
+  text-align: center;
+  margin-right: 35px;
+  font-size: 16px;
+  font-weight: 200;
+}
+.pesquisa .lupa {
+  width: 30px;
+}
+.pesquisa ul {
+  display: flex;
+  margin-left: 15px;
+}
+.pesquisa li {
+  margin: 10px;
+}
+.pesquisa img {
+  width: 40px;
+}
+nav {
+  display: flex;
+  background-color: #6c6c6c11;
+  padding: 32px;
+  height: 240px;
+  /* width: 1280px; */
+  justify-content: space-around;
+  justify-content: center;
+  margin: auto;
+
+}
+.contener {
+  width: 592px;
+  height: 176px;
+  font-size: 16px;
+  display: flex;
+  margin-left: 35px;
+  
+}
+
+.sobre {
+  margin-left: 32px;
+}
+.sobre h1 {
+  font-size: 32px;
+  font-family: "Poppins", sans-serif;
+}
+.sobre p {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+.localizacao {
+  width: 280px;
+  height: 104px;
+  margin-right: 32px;
+  margin-bottom: auto;
+
+}
+.info {
+  display: flex;
+  margin-right: 100px;
+  
+}
+.info img {
+  text-align: center;
+  width: 24px;
+}
+.info p {
+  width: 180px;
+  text-align: left;
+  padding: 8px;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+.galeria{
+        margin: 24px auto;
+        width: 1280px;
+        height: 957px;
+        
+}
+.galeria img{
+        padding: 24px;        
         text-align: center;
-}
-.nave{
-        display: flex;
-}
-.nave ul{
-        display: flex;
-        margin-left: 15px;
-}
-.nave img{
-width: 40px;
+        width: 286px;
+        height: 286px;
+
 }
