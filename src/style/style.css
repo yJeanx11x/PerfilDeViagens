@@ -1,6 +1,5 @@
 * {
   font-family: "Poppins", sans-serif;
-  
 }
 header {
   display: flex;
@@ -26,6 +25,7 @@ header {
 }
 .pesquisa .lupa {
   width: 30px;
+
 }
 .pesquisa ul {
   display: flex;
@@ -38,48 +38,56 @@ header {
   width: 40px;
 }
 nav {
+  height: auto;
   display: flex;
   background-color: #6c6c6c11;
   padding: 32px;
   height: 240px;
-  /* width: 1280px; */
   justify-content: space-around;
-  justify-content: center;
   margin: auto;
 
 }
-.contener {
-  width: 592px;
-  height: 176px;
-  font-size: 16px;
+.contener{
   display: flex;
-  margin-left: 35px;
-  
+margin-left: 32px;
+
+}
+
+.contener img {
+  width: 176px;
+  height: 176px;
+  display: flex;
 }
 
 .sobre {
   margin-left: 32px;
+  width: 384px;
+  height: 176px;
+  margin-left: 35px;
+
+  
 }
 .sobre h1 {
   font-size: 32px;
   font-family: "Poppins", sans-serif;
 }
 .sobre p {
-  font-size: 14px;
+  font-size: 15px;
   font-family: "Poppins", sans-serif;
   font-weight: 200;
+
+
+
 }
 .localizacao {
   width: 280px;
   height: 104px;
   margin-right: 32px;
   margin-bottom: auto;
-
 }
 .info {
   display: flex;
   margin-right: 100px;
-  
 }
 .info img {
   text-align: center;
@@ -93,16 +101,32 @@ nav {
   font-family: "Poppins", sans-serif;
   font-weight: 200;
 }
-.galeria{
-        margin: 24px auto;
-        width: 1280px;
-        height: 957px;
-        
-}
-.galeria img{
-        padding: 24px;        
-        text-align: center;
-        width: 286px;
-        height: 286px;
 
+section {
+  margin: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 954;
 }
+.galeria {
+  width: 1286px;
+  height: 986px;
+  padding: 26px;
+  text-align: center;
+}
+.galeria img {
+  margin: auto;
+  padding: 24px;
+  width: 286px;
+  height: 286px;
+}
+
+footer {
+  position: static;
+  width: 1280px;
+  height: 72px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ef5f4c;
+}
+
