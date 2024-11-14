@@ -4,7 +4,8 @@
 header {
   display: flex;
   text-align: center;
-  padding: 20px 35px;
+  margin: 20px 35px;
+  flex-wrap: wrap;
 }
 .logo {
   display: flex;
@@ -25,7 +26,6 @@ header {
 }
 .pesquisa .lupa {
   width: 30px;
-
 }
 .pesquisa ul {
   display: flex;
@@ -38,19 +38,18 @@ header {
   width: 40px;
 }
 nav {
-  height: auto;
+  width: auto;
+
   display: flex;
   background-color: #6c6c6c11;
   padding: 32px;
   height: 240px;
   justify-content: space-around;
-  margin: auto;
-
+  /* margin: auto; */
 }
-.contener{
+.contener {
   display: flex;
-margin-left: 32px;
-
+  margin: auto auto;
 }
 
 .contener img {
@@ -64,8 +63,6 @@ margin-left: 32px;
   width: 384px;
   height: 176px;
   margin-left: 35px;
-
-  
 }
 .sobre h1 {
   font-size: 32px;
@@ -75,15 +72,12 @@ margin-left: 32px;
   font-size: 15px;
   font-family: "Poppins", sans-serif;
   font-weight: 200;
-
-
-
 }
 .localizacao {
   width: 280px;
   height: 104px;
-  margin-right: 32px;
-  margin-bottom: auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 .info {
   display: flex;
@@ -103,30 +97,47 @@ margin-left: 32px;
 }
 
 section {
-  margin: 15px;
   display: flex;
   flex-wrap: wrap;
-  height: 954;
+  justify-content: center;
+
 }
 .galeria {
-  width: 1286px;
-  height: 986px;
-  padding: 26px;
+  display: flex;
   text-align: center;
+  flex-wrap: wrap;
+width: 1280px;
+
 }
 .galeria img {
-  margin: auto;
-  padding: 24px;
+  margin:24px auto;
   width: 286px;
   height: 286px;
 }
-
 footer {
-  position: static;
-  width: 1280px;
-  height: 72px;
   display: flex;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 12px;
+  margin: 32px auto ;
   flex-wrap: wrap;
-  background-color: #ef5f4c;
+  text-align: center;
 }
 
+footer p{
+display: flex;
+flex: content;
+margin: 32px;
+text-align: center;
+
+}
+.priva {
+margin: auto;
+}
+.priva2 {
+  text-align: center;
+  display: flex;
+}
+.priva2 p{
+  margin: 16px;
+}
