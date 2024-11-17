@@ -1,0 +1,44 @@
+@media (max-width: 916px) {
+  .logo {
+    width: 162px;
+    height: 32px;
+    align-items: center;
+    margin-left: auto;
+  }
+  .pesquisa {
+    width: 80px;
+  }
+  .pesquisa ul {
+    display: none;
+  }
+  nav {
+    display: block;
+    width: auto;
+    height: 520px;
+    justify-items: end;
+    padding: 4px;
+  }
+  .contener {
+    display: block;
+    width: 296px;
+    height: 318px;
+    margin: 32px;
+  }
+  .contener img {
+    width: 120px;
+    height: 120px;
+    margin-left: 0;
+  }
+  .sobre {
+    width: 296px;
+    height: 318px;
+    margin: 0;
+  }
+  .contener h1 {
+    font-size: 24px;
+  }
+  .contener p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
