@@ -34,6 +34,13 @@ header {
 .pesquisa li {
   margin: 10px;
 }
+
+.pesquisa li:hover{
+  color: #ef5f4c;
+  text-decoration: underline;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
 .pesquisa img {
   width: 40px;
 }
